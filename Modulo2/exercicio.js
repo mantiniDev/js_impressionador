@@ -1,0 +1,27 @@
+const valorInicial = 2148;
+let semValor;
+// exercico 1;
+console.log("Resposta do exrcício 1");
+console.log(`O Valor da primeira variável é ${valorInicial}`);
+semValor = 23;
+console.log(`Minha segunda variável vale ${semValor}`);
+console.log(`O valor da soma das minhas variáveis é: ${valorInicial + semValor}`);
+semValor = semValor ** 2;
+console.log(`Valor ao quadrado: ${semValor}`);
+semValor = semValor / 3;
+console.log(`Valor dividido ${semValor}`);
+console.log("****************************************");
+//exercicio 2;
+console.log("Resposta do exrcício 2");
+const valor1 = true;
+const valor2 = false;
+
+let resp1 = valor1 && valor2;
+let resp2 = valor1 || valor2;
+console.log(`Resp1= ${resp1}`);
+console.log(`Resp2= ${resp2}`);
+const valor3 = false;
+let resp3 = (valor1 && valor2) && valor3;
+let resp4 = (valor1 || valor2) || valor3;
+console.log(`Resp3= ${resp3}`);
+console.log(`Resp4= ${resp4}`);
